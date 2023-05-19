@@ -10,7 +10,7 @@
 	<xacro:property name="rplidar_offset_z" value="0.028" />
 
 	<!-- Body of mrobot, with plates, standoffs and Create (including sim sensors) -->
-	<mrobot_body/>
+	<xacro:mrobot_body/>
 
 	<!-- Attach the Kinect -->
 	<joint name="rplidar_joint" type="fixed">
